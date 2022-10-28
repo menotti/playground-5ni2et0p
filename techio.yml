@@ -2,3 +2,10 @@ title: Custom Template
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
+
+projects:
+  dpcpp:
+    root: /dpcpp-project
+    runner:
+      name: intel/oneapi-hpckit
+      version: devel-ubuntu20.04
