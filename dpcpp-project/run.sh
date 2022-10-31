@@ -2,11 +2,8 @@
 
 sample=$1
 
-mkdir build
-cd build
+cd /project/target/src/exercises/
 
-cmake ../ > /dev/null
-
-make $sample
+dpcpp ${sample}.cpp -o $sample
 
 ./$sample
