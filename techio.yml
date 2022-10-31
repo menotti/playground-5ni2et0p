@@ -1,7 +1,7 @@
 title: Custom Template
 plan:
 - title: Welcome
-  statement: markdowns/welcome.md
+  statement: markdowns/hello_world.md
 
 projects:
   dpcpp:
